@@ -48,10 +48,10 @@ jobs:
             export is_prerelease=false
           fi
           
-          export ZIP_NAME=bookmark-${GH_RELEASE_VERSION}.zip
+          export ZIP_NAME=k8s-on-${GH_RELEASE_VERSION}.zip
           
           
-          cp README.md bookmark
+          cp README.md k8s-on
           zip -r $ZIP_NAME k8s-on/*
           # https://docs.github.com/en/rest/releases/releases?apiVersion=2022-11-28#create-a-release
           cat>_data.yaml<<EOF
