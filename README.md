@@ -13,7 +13,7 @@ kcn kube-namespace is a short cut of "kubectl config set-context --current --nam
 1. Ensure [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) already installed.
 1. Install plugin to ohmyzsh customer plugin dir.
     ```zsh
-    curl -s https://raw.githubusercontent.com/calmzhu/ohmyzsh-plugin-k8s-on/main/install.zsh >install.zsh
+    curl -s https://raw.githubusercontent.com/calmzhu/ohmyzsh-plugin-bookmark/refs/heads/main/install.zsh >install.zsh
     zsh install.zsh $ZSH_CUSTOM
     ```
 1. Add **k8s-on** to the plugins array in your zshrc file.
